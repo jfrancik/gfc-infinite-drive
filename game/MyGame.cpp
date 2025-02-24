@@ -2,7 +2,7 @@
 #include "MyGame.h"
 
 CMyGame::CMyGame(void) : 
-	m_car(640, 120, "car.png", 0),
+	m_car(640, 120, "car.png", 0),	// car & wheels image by vecteezy.com
 	m_front(640, 120, "wheel.png", CColor::White(), 0),
 	m_rear(640, 120, "wheel.png", CColor::White(), 0),
 	m_back(0, 360, "landscape.jpg", 0)
